@@ -12,15 +12,14 @@
 
 Our approach refines raw sensor depth into clean, complete measurements, enabling:
 - **Depth Completion & Refinement**: Fills missing regions with metric accuracy and improved quality
+- **Scene Reconstruction**: High-fidelity indoor mapping with a strong depth prior
 - **4D Point Tracking**: Accurate dynamic tracking in metric space for robot learning
 - **Dexterous Manipulation**: Robust grasping with precise geometric understanding
-- **Scene Reconstruction**: High-fidelity indoor mapping with improved camera pose estimation
 
-## News
+## Artifcats Release
 
-- **[2026-01-22]** Released initial code and pretrained models
 
-## Model Zoo
+### Model Zoo
 
 We provide pretrained models for different scenarios:
 
@@ -28,6 +27,9 @@ We provide pretrained models for different scenarios:
 |-------|-----------|-------------|
 | LingBot-Depth | [model.pt](https://example.com/model.pt) | General-purpose depth refinement |
 | LingBot-Depth-DC | [model.pt](https://example.com/model-dc.pt) | Optimized for sparse depth completion |
+
+### Data
+The curated RGB-D dataset (3M RGB-depth pairs, including 2M real and 1M simulated samples) will be released upon completion of the necessary licensing and approval procedures. Our expected date is the mid of March.
 
 ## Installation
 
