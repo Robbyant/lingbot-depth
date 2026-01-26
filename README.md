@@ -51,12 +51,12 @@ git clone https://github.com/robbyant/lingbot-depth
 cd lingbot-depth
 pip install -e .
 ```
-
+<!-- 
 Or install dependencies only:
 
 ```bash
 pip install -r requirements.txt
-```
+``` -->
 
 ## Quick Start
 
